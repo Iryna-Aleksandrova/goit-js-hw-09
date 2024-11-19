@@ -15,10 +15,6 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 
-.main-title {
-  margin-bottom: 20px;
-}
-
 .gallery {
   max-width: 1128px;
   margin: auto;
@@ -39,27 +35,10 @@
   transform: scale(1.04);
 }
 
-.captions {
-  text-align: center;
-}
-
-.simpl-lightbox {
-  background-color: #2e2f42cc;
-  opacity: 0.8;
-}
-
-.sl-counter {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-}
-
 .feedback-form {
+  max-width: 408px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 408px;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -72,11 +51,12 @@
 
 label {
   text-align: left;
-  /* font-family: Montserrat;
+  font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.04em; */
+  letter-spacing: 0.04em;
+  color: #2e2f42;
 }
 
 input {
@@ -93,7 +73,7 @@ input {
 input:hover,
 input:focus {
   outline: none;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
 }
 
 textarea {
@@ -109,7 +89,7 @@ textarea {
 textarea:hover,
 textarea:focus {
   outline: none;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
 }
 
 button {
